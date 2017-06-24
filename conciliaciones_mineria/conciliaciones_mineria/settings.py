@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'conciliaciones',
 ]
 
 MIDDLEWARE = [
@@ -68,7 +69,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'conciliaciones_mineria.wsgi.application'
-
+TEMPLATE_DIRS = ["conciliaciones/templates"]
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
